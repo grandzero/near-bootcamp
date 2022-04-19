@@ -16,7 +16,7 @@ export function helloWorldTask3(names: Array<string>): string {
 }
 
 
-export function helloWorldTask4(names: Array<string>): string {
+export function helloWorldTask4(): string {
   const predecessor = Context.predecessor
   return 'hello ' + predecessor // We are getting data from execution context of chain. It's like msg.sender in solidity
 }
